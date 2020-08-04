@@ -1,0 +1,7 @@
+# Dynamic-Integer-Queue
+
+In this project, you are asked to write a multithreaded C++ program that simulates a queue of customers waiting in a store to pay their groceries. There are two (2) cashiers and a queue in the store, shared by these cashiers. One of the cashier always serves to the customers, while the other cashier serves when the current number of customers waiting in the queue passes a threshold value. When arrived, customers need to go to the rear of the queue and wait in that queue until their turn comes to be served by a cashier. Whenever a cashier is available, the customer at the front of the queue begins the checkout process with that cashier. In this homework, you will simulate the customer's arrivals and their transactions with the cashiers via a dynamic queue data structure and multithreading techniques.
+
+The time between arrivals of two customers is probabilistic. Moreover, the time for a cashier to finish a checkout process is also probabilistic. Thus, the inter-arrival time between two customers and the checkout durations of cashiers are random values.
+
+In the scope of this homework, simulation means to employ a queue which customers arrive at random intervals and cashiers get the next customer to process. Simulation starts after taking the inputs from the keyboard, and continues until all of the customers arrive and complete checkout. During the simulation, you are going to display some verbose output about the actions of customers and cashiers (see Section "Details of Simulation" for details).
